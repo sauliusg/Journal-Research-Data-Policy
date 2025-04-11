@@ -44,10 +44,11 @@ Count	Format
 1	nucleic acid sequences
 1	nomenclature
 1	neuroimaging data
-1	mp
+1	mp (Melting Point? S.G.)
 1	microarray data
 1	miRNA sequences and annotation
-1	mass spectrometry raw proteomics data
+1	mass spectrometry
+1	raw proteomics data
 1	insertions, deletions, translocations
 1	force field parameters
 1	crystal structures
@@ -171,68 +172,52 @@ Count	Format
 1	Macromolecular structure and sequence data
 1	Low resolution MS data under conditions that minimize fragmentation
 1	the probe temperature when it is accurately known
-1	List the nucleus being measured, any nucleus being broad-band decoupled, the solvent used (formula preferred, e.g
-1	It must be emphasized that the following is only a general guideline and authors are encouraged to present as much data as possible to support their structure assignments
+1	List the nucleus being measured, any nucleus being broad-band decoupled, the solvent used (formula preferred)
 1	It is the responsibility of the author to obtain a file name (PDB ID or NDB ID) for the molecule
-1	It is recommended to present scaled-down photocopies of the experimental spectra
-1	It is recommended that authors check the NCBI database for misidentification and contamination of human cell lines.
+1	scaled-down photocopies of the experimental spectra
 1	Intermolecular and supramolecular interactions of molecular systems, binding, assembly, and interaction phenomena
 1	Intermediates on Solid Phase
-1	Instead, an estimate of the limit of detection based on the sensitivity and error analysis of the assay should be provided
-1	Insets are encouraged to show expanded regions
 1	Input/configuration files and program output
 1	Inorganic and organometallic compounds
 1	Indicate solvent or peak suppression protocols used in collecting data
 1	Include the number of protons represented by the signal, peak multiplicity, and coupling constants as needed (J italicized, reported with up to one digit after the decimal)
-1	Include the FID files, acquisition data, and processing parameters for each experiment
+1	FID files, acquisition data, and processing parameters for each experiment
 1	Include peak multiplicities for 1H-coupled 13C NMR spectra or for signals in 1H-decoupled spectra that are coupled to other magnetically active nuclei
 1	Include a structure file that shows the structure and compound identifier for each provided dataset
-1	In the text and tables, the positions of extrema are designated as λmax and λmin  IR and Raman spectra themselves are usually not presented
+1	In the text and tables, the positions of extrema are designated as λmax and λmin IR and Raman spectra themselves are usually not presented
 1	In the text and tables, the positions of extrema are designated as λmax and λmin
-1	In the case of GC, the brand and model of instrument, detector, and recording conditions, i.e., temperature, length and diameter of the column, column packing, solid inert carrier, and carrier gas, should be specified in the experimental part.
+1	In the case of GC, the brand and model of instrument, detector, and recording conditions, i.e., temperature, length and diameter of the column, column packing, solid inert carrier, and carrier gas, should be specified
 1	In the absence of an X-ray structure determination, evidence for elemental constitution must be provided by elemental analysis (e.g., combustion analysis, microprobe analysis), or mass spectrometry
-1	In the Experimental Section, the compound must be clearly identified, for example in a header at the beginning of the synthetic procedure or the summary of spectroscopic data
-1	In some cases, a reviewer or Editor may require authors to submit additional data to satisfy themselves of the validity of a proposed formulation
-1	In select instances, a variety of definitive spectroscopic techniques may provide sufficient characterization (for example, if many of the nuclei are NMR active), but in the majority of cases evidence for elemental constitution must be provided by either elemental analysis (e.g
+1	In select instances, a variety of definitive spectroscopic techniques may provide sufficient characterization (for example, if many of the nuclei are NMR active), but in the majority of cases evidence for elemental constitution must be provided by either elemental analysis (e.g., combustion analysis, microprobe analysis), or mass spectrometry
 1	In many cases, X-ray diffraction may provide the most unambiguous characterization of such complexes, but this will not suffice as the only means of characterization
 1	In electron spectra, wavelengths (in nm) or wavenumbers (in cm–1 ) are given on the abscissa in ascending order from left to right.
 1	In describing spectra, signal types are indicated in abbreviated form: s, singlet; d, doublet; t, triplet; q, quartet; quint, quintet; and m, multiplet. Proton chemical shifts are given in the δ scale, for example, δ 5.24 m.
-1	In describing spectra, signal types are indicated in abbreviated form: s, singlet
 1	In cases where intermolecular interactions are relevant to the discussion, a view of the unit cell may be included
-1	In cases where filtered radiation is used, every effort should be made to identify residual β lines
 1	In cases of unindexed listing of the data, the d spacings of all observed lines should be listed in sequence, together with their relative intensities
-1	In addition, how the sample was measured (in a gelatin capsule, Teflon capsule, etc.) and the diamagnetic correction for the sample holder, as well as the diamagnetic correction for the material, must be provided and the manner in which it was calculated (Pascal’s constants) or measured must be stated
-1	In addition, at least one other characterization technique must be used to support the proposed formulation
-1	In a text document, include the name of the manufacturer of the spectrometer used to collect the data, the acquisition software and processing programs used to analyze the data, and the field strength used to measure each nucleus (i.e., 300 MHz 1H or 50 MHz 13C)
-1	In NMR spectra, millionths of a field (ppm) are given on the abscissa axis; the maximum signal of a solvent or a reference sample may be outside the graph field.
-1	If there is a specific need to distinguish alternative formulas with the same molecular mass (within one amu), then HRMS data are necessary
+1	NMR spectra, millionths of a field (ppm) are given on the abscissa axis; the maximum signal of a solvent or a reference sample may be outside the graph field.
+1	HRMS (High Resolution Mass Specroscopy? S.G.) data
 1	If the spectra are given, the wavenumbers (cm–1 ) (in descending order from left to right) or frequencies in accordance with the scale of the spectrometer are placed along the lower abscissa axis; the upper abscissa axis can reflect wavelength data (µm).
-1	If the spectra are given, the wavenumbers (cm–1 ) (in descending order from left to right) or frequencies in accordance with the scale of the spectrometer are placed along the lower abscissa axis
-1	If the software used for calculations is generally available, it must be properly cited in the References and Footnotes
+1	software used for calculations must be properly cited
 1	If possible, the crystal system should be specified
-1	If no analysis was performed, then other evidence (for example, 1H NMR, 13C NMR, hplc, glpc, gel electrophoresis, etc.) should be included as figures in the Supporting Information
-1	If correlation data are provided based on hplc or glpc methods, then retention times for both enantiomers must be provided, together with solvent and flow rate information, and identification of the chiral support
-1	If a spherical atom view is chosen for the manuscript, a thermal ellipsoid figure should be included in the Supporting Information
-1	If a paper mentions any calculations that are integral to the study (i.e., the precise quantitative results are central to the conclusions drawn) computational details must be described
+1	1H NMR
+1	13C NMR
+1	hplc
+1	glpc
+1	gel electrophoresis
+1	hplc or glpc methods: then retention times for both enantiomers must be provided, together with solvent and flow rate information, and identification of the chiral support
+1	calculations that are integral to the study (i.e., the precise quantitative results are central to the conclusions drawn); computational details must be described
 1	If a file name has not yet been obtained upon acceptance of a paper, it must be added in proof
-1	IR spectrum, ν, cm –1 : 3350 br (NH, NOH), 2100 o.s (C≡N), 1700–1600 s (C=O, C=N)
-1	IR and Raman spectra themselves are usually not presented.
+1	IR spectrum (summary? S.G.), ν, cm –1 : 3350 br (NH, NOH), 2100 o.s (C≡N), 1700–1600 s (C=O, C=N)
+1	IR and Raman spectra themselves are usually not presented
 1	IR / Raman
-1	Human genomic structural variation data (>50bp), e.g
+1	Human genomic structural variation data (>50bp)
 1	Human geno- and phenotype data, epigenetics
-1	Human genetic variation data (<=50bp), e.g.single-base nucleotide substitutions, small-scale deletion or insertions
-1	However, one printed table of structure factors should be retained in case it is requested by the Editor for review purposes only
-1	However, in these circumstances, an explicit statement must be given indicating that the compounds have not been isolated
-1	However, a certain region may contain a group of unresolved peaks or signals
-1	Horizontal orientation is preferred for spectra
+1	Human genetic variation data (<=50bp), e.g. single-base nucleotide substitutions, small-scale deletion or insertions
+1	printed table of structure factors
 1	High-throughput functional genomics data
-1	Guidelines for Reporting Biological Data
-1	Guidelines for Experiments Authors are expected to provide sufficient detail to enable a trained professional to reproduce routine measurements and synthetic procedures
-1	Guidelines for Characterization of Organometallic and Inorganic Compounds Authors are required to provide sufficient information (as described in more detail below) to establish the identity of a new compound, its purity, and its yield
-1	Guidelines for Characterization of Organometallic and Inorganic Compounds
-1	Guidelines for Characterization of Organic Compounds Sample Quality  For new substances, evidence of the homogeneity the purified sample should be included
-1	Give 1H NMR chemical shifts to two digits after the decimal point
-1	Give 13C chemical shifts to one digit after the decimal point, unless an additional digit will help distinguish overlapping peaks
+1	For new substances, evidence of the homogeneity the purified sample should be included
+1	1H NMR chemical shifts to two digits after the decimal point
+1	13C chemical shifts to one digit after the decimal point, unless an additional digit will help distinguish overlapping peaks
 1	Geochemical, geochronological, and petrological data
 1	Genome sequence data
 1	Genome assembly data
@@ -241,31 +226,26 @@ Count	Format
 1	Genetic and genomic sequence (DNA/RNA)
 1	Gene expression data, array- and sequence-based
 1	Gene expression data
-1	Further details are listed in the guidelines authored by J
 1	Functional genomics data
 1	Functional enzymology data (kinetic and experimental data)
-1	For structures with anisotropically refined atoms, a figure displaying the thermal ellipsoids should ordinarily be presented
+1	For structures with anisotropically refined atoms, a figure displaying the thermal ellipsoids
 1	For quantitative optical measurements, the specifics and usable range of the photodetector should be reported
-1	For publication in the Journal of the American Chemical Society, the reporting of kinetic data and equilibrium binding data for proteins, nucleic acids, and other species should preferably include a description of the identity of the catalyst or binding molecule, its origin, purity of composition, and any modifications such as mutations, post-translational modifications, or other modifications made to facilitate expression and purification
+1	For publication in the Journal of the American Chemical Society, the reporting of
+1	kinetic data and equilibrium binding data for proteins, nucleic acids, and other species
 1	For non-racemic, chiral substances, data to allow correlation of absolute configuration should be given, preferably including [α]D values
-1	For manuscripts that present new NMR pulse sequences, authors are requested to supply as “Supporting Information for Publication” a file that includes the original working pulse sequence information required to record data
-1	For example, IR spectroscopy may be used to support the presence of carbonyl, acyl, dinitrogen, carbonyl, and hydride moieties
-1	For crystalline samples, information about the method of crystallization should be included (solvents
+1	new NMR pulse sequences –  file that includes the original working pulse sequence information required to record data
+1	IR spectroscopy may be used to support the presence of carbonyl, acyl, dinitrogen, carbonyl, and hydride moieties
+1	method of crystallization (solvents; mp; etc.)
 1	For all newly synthesized compounds, the elemental analysis data or high-resolution mass spectra should be provided
-1	For TLC, the adsorbent, eluent, and developing reagent should be given. 
-1	For TLC, the adsorbent, eluent, and developing reagent should be given
-1	Font should be clear and large enough to read (minimum of 10 point)
+1	TLC; For TLC, the adsorbent, eluent, and developing reagent should be given
+1	TLC; For TLC, the adsorbent, eluent, and developing reagent should be given
 1	Fluorescence sensors
 1	Flow cytometry data
 1	Fits of magnetic data [χ(T), χ-1(T), χT(T), μ(T), M(H), etc.] to an analytical expression must include both the Hamiltonian from which the analytical expression is derived and the final analytical expression and fitting parameters
 1	Files must be submitted in their native format
-1	Field strength should be noted for each spectrum, not as a comment in the general Experimental Section
-1	Evaluate the uncertainty of accurate mass measurement by any statistically valid method
 1	Enzymology and biocatalysis data
 1	Environmental and ecological data
-1	Elemental analysis is sufficient
 1	Electrophoretic gels and blots
-1	Electrophoretic Gels and Blots
 1	Electrochemistry Data
 1	EPR
 1	Diamagnetic compounds must also be characterized by NMR spectroscopy, preferably for at least two different nuclei
