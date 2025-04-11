@@ -1,1 +1,3 @@
  1244  (set -x; directory-metadata; awk -F '\t' '$4 ~ /data types/ {OFS=FS; print $8}' outputs/selected-answer.tsv | sort | uniq -c | sort -nr -k1,1 | sed 's/^  *//; s/ /\t/' | perl -F'\t' -alne '@formats = split (/(; *|\. +)/, $F[1]); for (@formats) {print}' | sort | uniq -c | sort -nr -k1,1 > formats.tsv) 2>&1 | tee formats.tsv.log
+ 1253  cp formats.tsv formats-EDITED.tsv
+ 1294  awk -F '\t' '$4 ~ /data types/ && length ($8) > 400 && $8 !~ /^Crystal structure|Authors are required/ {OFS=FS; print $8}' outputs/selected-answer.tsv | sort -u >> formats-EDITED.tsv 
