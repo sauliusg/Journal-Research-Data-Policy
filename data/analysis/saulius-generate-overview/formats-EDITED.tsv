@@ -130,14 +130,14 @@ Count	Format
 1	Protein sequences
 1	Protein sequence data
 1	Protein circular dichroism and protein synchrotron radiation circular dichroism
-1	Preferably, this would be a technique that provides definitive identification of a key functional group or chromophore
+1	identification of a key functional group or chromophore
 1	Potential Energy Surfaces
-1	Possible space groups may also be listed if the data warrant it
+1	Possible space groups (for Crystal Structure Prediction? S.G.)
 1	Polymers and macromolecules
 1	Polymers
-1	Best Practices for the Reporting of Colloidal Inorganic Nanomaterials (http://pubs.acs.org/doi/abs/10.1021/acs.chemmater.5b02323)
-1	Best Practices for Reporting on Heterogeneous Photocatalysis (http://pubs.acs.org/doi/abs/10.1021/am504389z)
-1	Best Practices in Perovskite Solar Cell Efficiency Measurements
+1	Reporting of Colloidal Inorganic Nanomaterials (http://pubs.acs.org/doi/abs/10.1021/acs.chemmater.5b02323)
+1	Reporting on Heterogeneous Photocatalysis (http://pubs.acs.org/doi/abs/10.1021/am504389z)
+1	Perovskite Solar Cell Efficiency Measurements
 1	Phenology data
 1	full details of the calculation (e.g., structures, energies, frequencies, dynamical quantities, etc.) in a repository that is accessible via the Internet
 1	full details of the calculation (e.g., structures, energies, frequencies, dynamical quantities, etc.) in a repository (such as Supporting Information to the paper) that is accessible via the Internet
@@ -160,33 +160,24 @@ Count	Format
 1	Metagenomics sequence data
 1	Metagenomic sequence
 1	Metabolite and metabolome profiling data
-1	Mention of unobserved resonances is encouraged
 1	Materials simulation data including electronic structure and molecular dynamics
 1	Materials (Various)
 1	Materials
 1	Mass spectral data for small chemical molecules, metabolomics, exposomics
 1	Mass spectra are presented as numerical values m/z and relative intensities of ion currents in a row, in order of decreasing ion mass,  - In the case of GC, the brand and model of instrument, detector, and recording conditions, i.e., temperature, length and diameter of the column, column packing, solid inert carrier, and carrier gas, should be specified in the experimental part
 1	Mass spectra are presented as numerical values m/z and relative intensities of ion currents in a row, in order of decreasing ion mass
-1	Mass Spectrom
-1	Manuscripts reporting the determination of one or more structures by X-ray diffraction must adhere to the following requirements:  Abstract
-1	Main Body of Manuscript
-1	Magnetic moment and/or ESR spectroscopic data should also be given for paramagnetic compounds if it is considered that the spin state of the molecule is of especial interest
+1	Magnetic moment and/or ESR spectroscopic data should also be given for paramagnetic compounds
 1	Macromolecular structure data
 1	Macromolecular structure and sequence data
-1	M., Lapp, R
-1	Low resolution MS data under conditions that minimize fragmentation are acceptable
-1	List the probe temperature when it is accurately known
+1	Low resolution MS data under conditions that minimize fragmentation
+1	the probe temperature when it is accurately known
 1	List the nucleus being measured, any nucleus being broad-band decoupled, the solvent used (formula preferred, e.g
-1	L., and Kimble, B
-1	L., Gross, M
 1	It must be emphasized that the following is only a general guideline and authors are encouraged to present as much data as possible to support their structure assignments
 1	It is the responsibility of the author to obtain a file name (PDB ID or NDB ID) for the molecule
 1	It is recommended to present scaled-down photocopies of the experimental spectra
 1	It is recommended that authors check the NCBI database for misidentification and contamination of human cell lines.
-1	Ion Proc
 1	Intermolecular and supramolecular interactions of molecular systems, binding, assembly, and interaction phenomena
 1	Intermediates on Solid Phase
-1	Int
 1	Instead, an estimate of the limit of detection based on the sensitivity and error analysis of the assay should be provided
 1	Insets are encouraged to show expanded regions
 1	Input/configuration files and program output
@@ -277,8 +268,6 @@ Count	Format
 1	Electrophoretic Gels and Blots
 1	Electrochemistry Data
 1	EPR
-1	E
-1	Do not set fixed acceptable error limits for exact mass measurement
 1	Diamagnetic compounds must also be characterized by NMR spectroscopy, preferably for at least two different nuclei
 1	Determine, for example, the precision and accuracy of replicate measurements or evaluate the performance characteristics of the mass spectrometer (see, for example, Sack, T
 1	Depending on the specific circumstances, the appropriate data to be deposited might be final output structure(s) or the input structure(s) that would allow another investigator to replicate the computational experiment.
@@ -395,4 +384,4 @@ Count	Format
 1	(B) Powder Diffraction Data
 1	(A) Crystal Structure Studies
 1	(1) Structure Reports in Articles
-1	Where applicable, the number of imaginary frequencies should be reported to identify stable structures and transition states."""
+1	the number of imaginary frequencies should be reported to identify stable structures and transition states
