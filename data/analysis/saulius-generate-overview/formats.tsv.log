@@ -1,0 +1,44 @@
++ directory-metadata
++ whoami
+saulius
++ hostname -f
+pterodaktilis
++ pwd
+/home/saulius/writings/Journal-Research-Data-Policy/data/analysis/saulius-generate-overview
++ set +x
++ git remote -v
+origin	git@github.com:sauliusg/Journal-Research-Data-Policy.git (fetch)
+origin	git@github.com:sauliusg/Journal-Research-Data-Policy.git (push)
++ git branch -v
+  dev               0e662fb Ignoring Jupyter checkpoint directory, to avoid accidental commit.
+* saulius-merge-all 3dbdba6 Restoring updated overview generation system.
++ git status
+On branch saulius-merge-all
+Your branch is up to date with 'origin/saulius-merge-all'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	formats.tsv
+	formats.tsv.log
+
+nothing added to commit but untracked files present (use "git add" to track)
++ df -h .
+Filesystem               Size  Used Avail Use% Mounted on
+/dev/mapper/vgmint-root  1,8T  1,2T  520G  71% /
++ type osname
+osname is /home/saulius/scripts/osname
++ osname
+Linuxmint-21.2
++ uname -a
+Linux pterodaktilis 5.15.0-136-generic #147-Ubuntu SMP Sat Mar 15 15:53:30 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
++ date
+2025-04-11T10:35:12 EEST
++ awk -F '\t' '$4 ~ /data types/ {OFS=FS; print $8}' outputs/selected-answer.tsv
++ sort
++ uniq -c
++ sort -nr -k1,1
++ sed 's/^  *//; s/ /\t/'
++ perl '-F\t' -alne '@formats = split (/(; *|\. +)/, $F[1]); for (@formats) {print}'
++ sort
++ uniq -c
++ sort -nr -k1,1
