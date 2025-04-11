@@ -324,7 +324,7 @@ Count	Format
 1	Authors are required to correct/defend/or respond to any A-level alerts
 1	Authors are referred to the STRENDA (Standards for Reporting Enzymology Data) Commission of the Beilstein Institut (http://www.beilstein-institut.de/en/projects/strenda/guidelines) for an example of detailed guidelines
 1	Authors are encouraged to consider deposition in public, community-supported repositories of the data-types listed below
-1	Atomic coordinates and structure factors for all structures mentioned must be available immediately upon publication of the paper, either directly in the Supporting Information or as a data bank deposition
+1	Atomic coordinates and structure factors
 1	Atomic coordinates
 1	Atom ratios as determined by, for example, microprobe analysis of selected elements may be sufficient for this purpose  (d) Compounds that have not been isolated  Compounds that have not been isolated in pure form (e.g
 1	Atmospheric and earth observation research, environmental data
@@ -338,26 +338,21 @@ Count	Format
 1	An example of such a description is as follows. IR spectrum, ν, cm –1 : 3350 br (NH, NOH), 2100 o.s (C≡N), 1700–1600 s (C=O, C=N)
 1	An example of such a description is as follows
 1	An Article should list for each structure the formula, formula weight, crystal system, space group, color of crystal, unit cell parameters, temperature of data collection, and values of Z, R, and GOF
-1	Along with crystallographic data (cell parameters, space group, etc.), in the experimental part, authors should specify the device with which the measurements were performed and the methods (programs) used for decrypting structures and for calculations It is recommended to present spectroscopic data as follows:  - In electron spectra, wavelengths (in nm) or wavenumbers (in cm–1 ) are given on the abscissa in ascending order from left to right
 1	Along with crystallographic data (cell parameters, space group, etc.), in the experimental part, authors should specify the device with which the measurements were performed and the methods (programs) used for decrypting structures and for calculations
-1	All proteomics data
-1	All peaks should be visible on the spectrum
-1	All peaks in the 1H NMR spectrum should be integrated
-1	All calculated 1/d2 values should be listed (exclusive of systematic absences), to the limit of the data quoted
+1	spectroscopic data as follows: - In electron spectra, wavelengths (in nm) or wavenumbers (in cm–1 ) are given on the abscissa in ascending order from left to right
+1	crystallographic data (cell parameters, space group, etc.); the device with which the measurements were performed and the methods (programs) used for decrypting structures and for calculations
+1	proteomics data
+1	1H NMR spectrum; peaks should be integrated
+1	1/d2 values should be listed (exclusive of systematic absences) (crystall scattering data – S.G.)
 1	Adequate evidence to firmly establish both identity and purity should be provided
-1	Accepted abbreviations for multiplicities and descriptors are s = singlet, d = doublet, t = triplet, q = quartet, quint = quintet, m = multiplet (denotes complex pattern), dd = doublet of doublets, dt = doublet of triplets, td = triplet of doublets, and br = broad signal
-1	A summary of the detailed criteria may be found below
-1	A representation of the compound should be included on the spectrum—please use ChemDraw or a related program
-1	A manuscript that does not provide coordinates at the time of submission will not be sent out for review
-1	A 13C NMR signal will be considered a singlet if the multiplicity is not assigned
-1	(d) Compounds that have not been isolated
-1	(d) Compounds That Have Not Been Isolated
-1	(c) Solid State Materials  Compounds in this category are those that have no existence in solution
-1	(b) Novel or Unexpected Compounds  Compounds in this category are those that either (i) exhibit an unprecedented type of structure, or (ii) are obtained by unexpected reaction
-1	(a) Routine Compounds
-1	(Theoretical model depositions are no longer accepted for inclusion in the PDB archive.) If the coordinate files are not deposited in the PDB, or if the PDB files are on hold until publication, then the coordinate files must be included in the Supporting Information submitted concurrently with the manuscript
-1	(C) Electron Diffraction
-1	(B) Powder Diffraction Data
-1	(A) Crystal Structure Studies
-1	(1) Structure Reports in Articles
-1	the number of imaginary frequencies should be reported to identify stable structures and transition states
+1	A representation of the compound should be included on the spectrum — please use ChemDraw or a related program
+1	ChemDraw or a related program images
+1	13C NMR
+1	Solid State Materials Compounds in this category are those that have no existence in solution
+1	Novel or Unexpected Compounds Compounds in this category are those that either (i) exhibit an unprecedented type of structure, or (ii) are obtained by unexpected reaction
+1	Routine Compounds
+1	Electron Diffraction
+1	Powder Diffraction Data
+1	Crystal Structure Studies
+1	Structure Reports in Articles
+1	imaginary frequencies should be reported to identify stable structures and transition states
