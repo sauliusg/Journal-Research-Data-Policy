@@ -412,24 +412,7 @@ Count	Format
       1 A manuscript that does not provide coordinates at the time of submission will not be sent out for review
       1 A description of the results of any published calculation must be available for scientific scrutiny by other investigators
       1 A 13C NMR signal will be considered a singlet if the multiplicity is not assigned
-      1 ;
-      1 ;
-      1 9
-      1 8
-      1 7
-      1 6
-      1 4, 1015–1018 (http://dx.doi.org/10.1351/pac199870041015)
-      1 4
-      1 3
-      1 2-D experiments have been performed
-      1 1H, 13C, DEPT, COSY, etc
-      1 1984, 61, 191-213)
-      1 11
-      1 10, 2047–2049 (http://dx.doi.org/10.1351/pac199870102047) for manuscripts reporting the results of electronic structure calculations, force field parameters, and other potential energy surface information
-      1 10
-      1 1
-      1 .nan
-      1 -XRD data are presented as the structural formula of a molecule with numbered atoms or as a crystal lattice and tables
+      1 XRD data are presented as the structural formula of a molecule with numbered atoms or as a crystal lattice and tables
       1 (d) Compounds that have not been isolated
       1 (d) Compounds That Have Not Been Isolated
       1 (c) Solid State Materials  Compounds in this category are those that have no existence in solution
@@ -440,7 +423,48 @@ Count	Format
       1 (B) Powder Diffraction Data
       1 (A) Crystal Structure Studies
       1 (1) Structure Reports in Articles
-"      1 "" Data Requirements Characterization of New Substances"
-      1  reporting the efficiency of solar conversion devices
-      1  Nothing in particular about this
-      1  Crystal structure (organic / organometallic / metal organic)
+      1 reporting the efficiency of solar conversion devices
+      1 Crystal structure (organic / organometallic / metal organic)
+      1	CIF
+      1 results of electronic structure calculations
+      1 force field parameters
+      1 other potential energy surface information
+      1 computational details must be described
+      1 Reproducibility of computations should be a defining goal in reporting
+      1 Sufficient technical details should be provided to allow a reader to reproduce the results of any calculations
+      1 A description of the results of any published calculation must be available for scientific scrutiny by other investigators
+      1 Ordinarily this will best be achieved if the authors place full details of the calculation (e.g., structures, energies, frequencies, dynamical quantities, etc.) in a repository that is accessible via the Internet
+      1 Depending on the specific circumstances, the appropriate data to be deposited might be final output structure(s) or the input structure(s) that would allow another investigator to replicate the computational experiment.
+      1 Electronically deposited structures should be written in a format that is machine readable by readily available modelling or translating programs
+      1 An adequate specification of the computer program used to carry out the calculations is essential
+      1 If the calculations were carried out with commercially available software, the investigator must list the source, version number, and force field employed
+      1 Any program modifications and any differences from the published version (including changes in parameters) must be fully described or available to other investigators upon request
+      1 Changes in parameters, program options (e.g., dielectric constant, nonbonded cutoffs, etc.) affecting reproducibility of the calculation, and program constraints must be fully described in the article
+      1 If the program is not available, commercially or otherwise, the authors must specify sufficient detail that the calculation could be reproduced
+      1 The issue of convergence must be adequately addressed
+      1 An iterative calculation is considered to have converged when further iterations will not significantly alter the results
+      1 Convergence criteria should be reported (e.g., energy change per iteration or energy gradient for geometry optimization of a single structure).  
+      1	Characterization of New Substances
+      1 Guidelines for Characterization of Organometallic and Inorganic Compounds
+      1	Supply all supplementary material in standard file formats
+      1 Specialized format such as .pdb (chemical), .wrl (VRML), .nb (Mathematica notebook), and .tex can also be supplied
+      1 XRD data are presented as the structural formula of a molecule with numbered atoms or as a crystal lattice and tables
+      1 Along with crystallographic data (cell parameters, space group, etc.), in the experimental part, authors should specify the device with which the measurements were performed and the methods (programs) used for decrypting structures and for calculations
+      1 In electron spectra, wavelengths (in nm) or wavenumbers (in cm–1 ) are given on the abscissa in ascending order from left to right.
+      1 The logarithm of the molar absorption coefficient or, if needed, molar absorption coefficient is presented on the ordinate axis
+      1 In the text and tables, the positions of extrema are designated as λmax and λmin
+      1 IR and Raman spectra themselves are usually not presented.
+      1 They are described in order of decreasing wavenumbers
+      1 An example of such a description is as follows. IR spectrum, ν, cm –1 : 3350 br (NH, NOH), 2100 o.s (C≡N), 1700–1600 s (C=O, C=N)
+      1 If the spectra are given, the wavenumbers (cm–1 ) (in descending order from left to right) or frequencies in accordance with the scale of the spectrometer are placed along the lower abscissa axis; the upper abscissa axis can reflect wavelength data (µm).
+      1 The left ordinate axis presents transmittance (%) or absorbance (for IR spectra) or intensity (for Raman spectra)
+      1 In NMR spectra, millionths of a field (ppm) are given on the abscissa axis; the maximum signal of a solvent or a reference sample may be outside the graph field.
+      1 scaled-down photocopies of the experimental spectra.
+      1 In describing spectra, signal types are indicated in abbreviated form: s, singlet; d, doublet; t, triplet; q, quartet; quint, quintet; and m, multiplet. Proton chemical shifts are given in the δ scale, for example, δ 5.24 m.
+      1 Chemical shifts of nuclei 13C, 31P, etc., are given in accordance with IUPAC recommendations: a shift into the weak field with a “+;” and into a strong field, with a “–.” Signals are recorded in order of increasing δ values -
+      1 Mass spectra are presented as numerical values m/z and relative intensities of ion currents in a row, in order of decreasing ion mass
+      1 In the case of GC, the brand and model of instrument, detector, and recording conditions, i.e., temperature, length and diameter of the column, column packing, solid inert carrier, and carrier gas, should be specified in the experimental part.
+      1 For HPLC, it is necessary to indicate the brand and model of the instrument, the detector, temperature, length and diameter of the column, the brand and particle size of the sorbent, and the composition of the eluent
+      1 For TLC, the adsorbent, eluent, and developing reagent should be given. 
+      1	exact- mass data that are used to confirm identities of synthetic and natural products, report/ing/ the uncertainty in the accurate-mass measurement used for formula verification along with the result
+      1 the precision and accuracy of replicate measurements or evaluate the performance characteristics of the mass spectrometer (see, for example, Sack, T. M., Lapp, R. L., Gross, M. L., and Kimble, B. J. Int. J. Mass Spectrom. Ion Proc. 1984, 61, 191-213)
