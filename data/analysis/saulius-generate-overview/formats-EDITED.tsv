@@ -1,4 +1,4 @@
-Nr	Data Kind
+Nr	DataKind
 1	.nb (Mathematica notebook)
 2	.pdb (chemical)
 3	.tex can also be supplied
@@ -265,7 +265,7 @@ Nr	Data Kind
 264	The issue of convergence must be adequately addressed
 265	The largest peak in the 1H NMR spectrum should normally arise from the compound, not the solvent
 266	The left ordinate axis presents transmittance (%) or absorbance (for IR spectra) or intensity (for Raman spectra)
-267	The left ordinate axis presents transmittance (%) or absorbance (for IR spectra) or intensity (for Raman spectra)  In NMR spectra, millionths of a field (ppm) are given on the abscissa axis
+267	The left ordinate axis presents transmittance (%) or absorbance (for IR spectra) or intensity (for Raman spectra) In NMR spectra, millionths of a field (ppm) are given on the abscissa axis
 268	The logarithm of the molar absorption coefficient or, if needed, molar absorption coefficient is presented on the ordinate axis
 269	The method of assay and the exact experimental conditions of the assay should be provided as a reference to previous work, with or without modifications, or fully described if a new assay
 270	The yield of a compound obtained in an NMR tube reaction should be determined using an internal standard
@@ -331,5 +331,4 @@ Nr	Data Kind
 330	scaled-down photocopies of the experimental spectra.
 331	software used for calculations must be properly cited
 332	spectroscopic data as follows: - In electron spectra, wavelengths (in nm) or wavenumbers (in cm–1 ) are given on the abscissa in ascending order from left to right
-333	the precision and accuracy of replicate measurements or evaluate the performance characteristics of the mass spectrometer (see, for example, Sack, T. M., Lapp, R. L., Gross, M. L., and Kimble, B. J. Int. J. Mass Spectrom. Ion Proc. 1984, 61, 191-213)
 334	the probe temperature when it is accurately known
