@@ -248,15 +248,22 @@ Count	Format
 1	Electrophoretic gels and blots
 1	Electrochemistry Data
 1	EPR
-1	Diamagnetic compounds must also be characterized by NMR spectroscopy, preferably for at least two different nuclei
-1	Determine, for example, the precision and accuracy of replicate measurements or evaluate the performance characteristics of the mass spectrometer (see, for example, Sack, T
-1	Depending on the specific circumstances, the appropriate data to be deposited might be final output structure(s) or the input structure(s) that would allow another investigator to replicate the computational experiment.
-1	Depending on the specific circumstances, the appropriate data to be deposited might be final output structure(s) or the input structure(s) that would allow another investigator to replicate the computational experiment
-1	Database Deposition
+1	NMR spectroscopy
+1	final output structure(s) or the input structure(s) that would allow another investigator to replicate the computational experiment
+1	final output structure(s) or the input structure(s) that would allow another investigator to replicate the computational experiment
 1	Data linking genotype to phenotype
-1	Data from X-ray powder measurements should be accompanied by details of the experimental technique: source of X-rays, the radiation, its wavelength, filters or monochromators, camera diameter, the type of X-ray recording, and the technique for measuring intensities
-1	Data Nuclear Magnetic Resonance Pulse Sequences
-1	DNA sequence data,  RNA sequence data,  Genome assembly data,  Protein sequence data,  Proteomics data,  Genetic variation data,  Functional genomics data,  Macromolecular structure data,  Gene expression data,  Crystallographic data for small molecules
+1	X-ray powder measurements should be accompanied by details of the experimental technique: source of X-rays, the radiation, its wavelength, filters or monochromators, camera diameter, the type of X-ray recording, and the technique for measuring intensities
+1	Nuclear Magnetic Resonance Pulse Sequences
+1	DNA sequence data
+1	RNA sequence data
+1	Genome assembly data
+1	Protein sequence data
+1	Proteomics data
+1	Genetic variation data
+1	Functional genomics data
+1	Macromolecular structure data
+1	Gene expression data
+1	Crystallographic data for small molecules
 1	DNA sequence data
 1	DNA and RNA trace or short-read sequencing data
 1	DNA & RNA sequence data
@@ -266,12 +273,10 @@ Count	Format
 1	Crystal structure (inorganic)
 1	Crystal structure (biological)
 1	CryoEM
-1	Convergence criteria should be reported (e.g., energy change per iteration or energy gradient for geometry optimization of a single structure).  
 1	Convergence criteria should be reported (e.g., energy change per iteration or energy gradient for geometry optimization of a single structure)
-1	Consider the following when using accurate mass data
-1	Consider all candidates fitting the experimentally determined value and its reported uncertainty when the result of accurate mass measurement is used for formula confirmation
+1	Convergence criteria should be reported (e.g., energy change per iteration or energy gradient for geometry optimization of a single structure)
 1	Confirmation of Structure
-1	Conditions essential to reproduce the results such as the temperature, pH, and pressure (if other than atmospheric) of the assay should be included
+1	Conditions essential to reproduce the results such as the temperature, pH, and pressure (if other than atmospheric) of the assay
 1	Computer Codes
 1	Computational studies and modelling
 1	Computational results
@@ -282,47 +287,38 @@ Count	Format
 1	Computational Chemistry
 1	Compound Characterization, Experimental, and Computational Data
 1	Compound Characterization Checklist
-1	Comments may be inserted into the CIF file using a Validation Response Form or uploaded as a separate document as Supporting Information for Review Only
-1	Combinatorial Chemistry  Validation of methods and characterization of new substances in a statistically significant sampling should be provided
+1	CIF
+1	Combinatorial Chemistry  Validation of methods and characterization of new substances in a statistically significant sampling
 1	Coherent X-ray images
-1	Climate or Earth system research, climate model data
-1	Chemical shifts should be listed consistently in a single article, starting either from downfield to upfield or vice-versa
-1	Chemical shifts of nuclei 13C, 31P, etc., are given in accordance with IUPAC recommendations: a shift into the weak field with a “+
-1	Chemical shift values should be included
-1	Characterization of Organometallic and Inorganic Compounds 
-1	Characterization of Organic Compounds 
+1	Climate or Earth system research – climate model data
+1	Chemical shifts
+1	Chemical shifts of nuclei 13C, 31P, etc.
+1	Characterization of Organometallic and Inorganic Compounds
+1	Characterization of Organic Compounds
 1	Characterization of New Substances
 1	Characterization of New Compounds
-1	Characterization data and experimental details must be included in either the paper or the Supporting Information
+1	Characterization data and experimental details
 1	Characterization Data (a) Routine Compounds
-1	Characterization Data  (a) Routine Compounds  Compounds in this category are those that have either literature precedents or are obtained by a logical synthesis in close to quantitative yield
-1	Characterization
+1	Characterization Data  (a) Routine Compounds
 1	Characterisation of compounds and materials
-1	Cell lines, If human cells are used, authors must declare in the manuscript: what cell lines were used by describing the source of the cell line, including when and from where it was obtained, whether the cell line has recently been authenticated and by what method
+1	Cell lines: what cell lines were used by describing the source of the cell line, including when and from where it was obtained, whether the cell line has recently been authenticated and by what method
 1	Cell Lines and Microorganisms
 1	Catalysts
-1	CIF, PDB, #### double check if more ####
-1	CIF Submission Instructions: All Crystallographic Information Files (CIFs), structure factor tables, and CheckCIF reports must be submitted to the Cambridge Crystallographic Data Centre (CCDC) prior to manuscript submission
-1	CIF Submission Instructions
-1	CIF  Guidelines for Computational Results Below are the general guidelines from Pure Appl
-1	C6D6 over benzene-d6), the standard used, and the field strength
-1	C6D6  over benzene-d6) and the field strength
+1	CIF
+1	PDB
+1	CIF
+1	CIF
+1	CIF
 1	Brain imaging data
-1	Both sets of guidelines can be viewed online at http://iupac.org/publications/pac/reports/year/1998/
-1	Boggs (Pure Appl
 1	Biomolecules (for example, enzymes, proteins, DNA/RNA, oligosaccharides, oligonucleotides)
 1	Biomolecules
-1	Biomolecule Structures:
+1	Biomolecule Structures
 1	Biological Specimens
 1	Bioimages, multidimensional life sciences image data (cell and tissue)
-1	Before being submitted to CCDC, CIFs should be checked using the free checkCIF data-validation utility on the CIF Validation site
-1	Because of potential misidentification of atoms, an X-ray diffraction structure alone will not typically be considered to provide sufficient characterization for these molecules
-1	Batteries.Crystal structure (organic / organometallic / metal organic), nanomaterials
-1	Batteries.Crystal structure (organic / organometallic / metal organic), Inorganic and organometallic compounds
+1	Batteries. Crystal structure (organic / organometallic / metal organic), nanomaterials
+1	Batteries. Crystal structure (organic / organometallic / metal organic), Inorganic and organometallic compounds
 1	Batteries
-1	Avoiding the Error of Making Bad Cells Look Good (http://pubs.acs.org/doi/abs/10.1021/acs.jpclett.5b00289) Best Practices for Reporting on Energy Storage (http://pubs.acs.org/doi/abs/10.1021/acsami.5b06029) Best Practice in Photocatalysis: Comparing Rates of Apparent Quantum Yields? (http://pubs.acs.org/doi/abs/10.1021/acs.jpclett.5b00521)
-1	Authors who report the results of electronic structure calculations are requested to provide as Supporting Information the geometries (either as Cartesian coordinates or Z matrices) of all the stationary points whose relative energies are given in the manuscript
-1	Authors are strongly encouraged to provide all three sets of data for all new and/or key compounds described in a manuscript submission
+1	electronic structure calculations: the geometries (either as Cartesian coordinates or Z matrices) of all the stationary points whose relative energies are given in the manuscript
 1	Authors are required to provide crystallographic or surface structure data as Supporting Information in crystallographic information file (CIF) format
 1	Authors are required to deposit the following mandatory data types in public, community-supported repositories, such as those listed below, prior to publication of an associated Frontiers manuscript
 1	Authors are required to correct/defend/or respond to any A-level alerts
