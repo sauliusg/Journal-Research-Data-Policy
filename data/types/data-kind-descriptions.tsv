@@ -1,0 +1,332 @@
+Nr	Data Type	File Format	DataKind
+1	Computation notebook	NB	.nb (Mathematica notebook)
+2	Macromolecule structure	PDB	.pdb (chemical)
+3	(La)TeX source	TEX	.tex can also be supplied
+4	Virtual reality scene	WRL	.wrl (VRML)
+5	Crystal Scattering data	CIF, HKL (SHELIX), MTZ	1/d2 values should be listed (exclusive of systematic absences) (crystall scattering data – S.G.)
+6	NMR chemical shifts	numbers	13C NMR
+7	NMR chemical shifts	numbers	13C chemical shifts to one digit after the decimal point, unless an additional digit will help distinguish overlapping peaks
+8	NMR chemical shifts	numbers	1H NMR
+9	NMR chemical shifts	numbers	1H NMR chemical shifts to two digits after the decimal point
+10	NMR chemical shifts	numbers	1H NMR data recorded in C6D6 listed as “residual internal C6D5H (δ 7.15)” (as an example)
+11	NMR chemical shifts	numbers	1H NMR spectrum; peaks should be integrated
+12	Computations	numbers, parameters, workflows	A description of the results of any published calculation must be available for scientific scrutiny by other investigators
+13	Spectra	graph	A representation of the compound should be included on the spectrum — please use ChemDraw or a related program
+14	Compound purity	number	Adequate evidence to firmly establish both identity and purity should be provided
+15	Crystal structure	CIF	Along with crystallographic data (cell parameters, space group, etc.), in the experimental part, authors should specify the device with which the measurements were performed and the methods (programs) used for decrypting structures and for calculations
+16	Chemical data	SMILES, numbers	An Article should list for each structure the formula, formula weight, crystal system, space group, color of crystal, unit cell parameters, temperature of data collection, and values of Z, R, and GOF
+17	Computations	source code, workflows	An adequate specification of the computer program used to carry out the calculations
+18	IR Spectra	numbers	An example of such a description is as follows. IR spectrum, ν, cm –1 : 3350 br (NH, NOH), 2100 o.s (C≡N), 1700–1600 s (C=O, C=N)
+19	Compound characterisation	numbers (?)	Antibodies:
+20	Software	source code	Any program modifications and any differences from the published version (including changes in parameters) must be fully described or available to other investigators upon request
+21	Crystal structure	CIF	Any set of atomic coordinates referred to in the manuscript, including atomic coordinates and structure factors for proteins determined by X-ray crystallography and coordinates determined by NMR, should be deposited with the Protein Data Bank, Research Collaboratory for Structural Bioinformatics at Rutgers University whenever appropriate
+22	Crystal structure	CIF	Any subsequent revisions to the CIFs or structure factor tables should be deposited directly with the CCDC before resubmitting the manuscript in ACS Paragon Plus
+23	NMR chemical shifts	numbers	Assign peak identities under the following circumstances: non-decoupled or equivalent spectra have been collected (13C, 31P, etc.)
+24	NMR chemical shifts	numbers	At minimum, the spectral window should be ‒1 ppm to 9 ppm for 1H NMR and ‒10 ppm to 180 ppm for 13C NMR
+25	Environmental data	numbers, images	Atmospheric and earth observation research, environmental data
+26	Chemical data	formulae, SMILES, numbers	Atom ratios as determined by, for example, microprobe analysis of selected elements may be sufficient for this purpose  (d) Compounds that have not been isolated  Compounds that have not been isolated in pure form (e.g
+27	Chemical 3D models	CIF, PDB, SDF, CML	Atomic coordinates
+28	Crystal Scattering data	CIF, HKL (SHELX), MTZ	Structure factors
+29	Crystal structure	CIF	Atomic coordinates
+30	Enzyme data	numbers	Authors are referred to the STRENDA (Standards for Reporting Enzymology Data) Commission of the Beilstein Institut (http://www.beilstein-institut.de/en/projects/strenda/guidelines) for an example of detailed guidelines
+31	Crystal structure	CIF	Authors are required to correct/defend/or respond to any A-level alerts
+32	Crystal structure	CIF	Authors are required to provide crystallographic or surface structure data as Supporting Information in crystallographic information file (CIF) format
+33	Electric measurements	numbers, graphs	Batteries
+34	Crystal structure	CIF	Batteries. Crystal structure (organic / organometallic / metal organic), Inorganic and organometallic compounds
+35	Crystal structure	CIF	Batteries. Crystal structure (organic / organometallic / metal organic), nanomaterials
+36	Bioimages	JPG, TIFF	Bioimages, multidimensional life sciences image data (cell and tissue)
+37	Bioassays	numbers (?)	Biological Assays
+38	Biological Data	numbers, images, graphs, tables, descriptions	Biological Data
+39	Biological Data	images, descriptions	Biological Specimens
+40	Macromolecule structure	PDB, PDBx, mmCIF	Biomolecule Structures
+41	Macromolecule structure	PDB, PDBx, mmCIF	Biomolecules
+42	Macromolecule structure	PDB, PDBx, mmCIF	Biomolecules (for example, enzymes, proteins, DNA/RNA, oligosaccharides, oligonucleotides)
+43	Biomedical data	images, TIFF	Brain imaging data
+44	Crystal structure	CIF	CIF
+45	Chemical data	formulae, SMILES, numbers	Catalysts
+46	Biological Data	images, descriptions, IDs	Cell Lines and Microorganisms
+47	Biological Data	images, descriptions, IDs	Cell lines: what cell lines were used by describing the source of the cell line, including when and from where it was obtained, whether the cell line has recently been authenticated and by what method
+48	Computations	numbers, workflows	Changes in parameters, program options (e.g., dielectric constant, nonbonded cutoffs, etc.) affecting reproducibility of the calculation, and program constraints must be fully described in the article
+49	Chemical data	formulae, SMILES, numbers	Characterisation of compounds and materials
+50	Chemical data	formulae, SMILES, numbers	Characterization Data  (a) Routine Compounds
+51	Chemical data	formulae, SMILES, numbers	Characterization Data (a) Routine Compounds
+52	Chemical data	formulae, SMILES, numbers	Characterization of New Compounds
+53	Chemical data	formulae, SMILES, numbers	Characterization of New Substances
+54	Chemical data	formulae, SMILES, numbers	Characterization of Organic Compounds
+55	Chemical data	formulae, SMILES, numbers	Characterization of Organometallic and Inorganic Compounds
+56	Chemical data	drawings, SMILES	ChemDraw or a related program images
+57	NMR chemical shifts	numbers, vendor formats	Chemical shifts
+58	NMR chemical shifts	numbers, vendor formats	Chemical shifts of nuclei 13C, 31P, etc.
+59	NMR chemical shifts	numbers, vendor formats	Chemical shifts of nuclei 13C, 31P, etc., are given in accordance with IUPAC recommendations: a shift into the weak field with a “+;” and into a strong field, with a “–.” Signals are recorded in order of increasing δ values -
+60	Climate model	GIS data, climate data, images, CSV	Climate or Earth system research – climate model data
+61	X-ray imaging	images, HDF5	Coherent X-ray images
+62	Combinatorial chemistry	numbers, tables, CSV	Combinatorial Chemistry  Validation of methods and characterization of new substances in a statistically significant sampling
+63	Chemical data	numbers	Compound Characterization, Experimental
+64	Chemical data	workflows, source code	Compound Characterization, Computational Data
+65	Chemical data	workflows, source code, CIF, XYZ, SDF, CML, vendor formats	Computational Chemistry
+66	Chemical data	workflows, source code, CIF, XYZ, SDF, CML, vendor formats	Computational Chemistry Calculations
+67	Chemical data	workflows, source code, CIF, XYZ, SDF, CML, vendor formats	Computational Reports
+68	Chemical data	workflows, source code, CIF, XYZ, SDF, CML, vendor formats	Computational chemistry files
+69	Chemical data	workflows, source code, CIF, XYZ, SDF, CML, vendor formats	Computational materials science
+70	Chemical data	workflows, source code, CIF, XYZ, SDF, CML, vendor formats	Computational results
+71	Chemical data	workflows, source code, CIF, XYZ, SDF, CML, vendor formats	Computational studies and modelling
+72	Computations	numbers, parameters, workflows	Computations
+73	Software	source code	Computer Codes
+74	Assays	numbers	Conditions essential to reproduce the results such as the temperature, pH, and pressure (if other than atmospheric) of the assay
+75	Crystal structure	CIF	Confirmation of Structure
+76	Computations	numbers, parameters, workflows	Convergence criteria should be reported (e.g., energy change per iteration or energy gradient for geometry optimization of a single structure)
+77	CryoEM images	images, EMD, HDF5, vendor formats	CryoEM
+78	Crystal structure	CIF	Crystal Structure Studies
+79	Macromolecule structure	PDB, PDBx, mmCIF	Crystal structure (biological)
+80	Crystal structure	CIF	Crystal structure (inorganic)
+81	Crystal structure	CIF	Crystal structure (organic / organometallic / metal organic)
+82	Crystal structure	CIF	Crystal structure (powder)
+83	Powder diffractograms	CIF, CSV, graphs, vendor formats	Crystallographic Data (Powder)
+84	Crystal structure	CIF	Crystallographic data for small molecules
+85	Nucleic acid sequences	FASTA, FASTQ	DNA & RNA sequence data
+86	Nucleic acid sequences	FASTA, FASTQ	DNA and RNA trace or short-read sequencing data
+87	Nucleic acid sequences	FASTA, FASTQ	DNA sequence data
+88	Biological Data	images, descriptions, IDs	Data linking genotype to phenotype
+89	Spectra	graphs, tables, CSV, vendor formats (?)	EPR
+90	Electric measurements	numbers, graphs	Electrochemistry Data
+91	Crystal Scattering data	CIF, HKL (SHELIX), MTZ	Electron Diffraction
+92	Molecular structure	CIF, SDF, CML, XYZ, vendor formats	Electronically deposited structures should be written in a format that is machine readable by readily available modelling or translating programs
+93	Gel images	images, TIFF, vendor formats	Electrophoretic gels and blots
+94	Biological Data	images, descriptions, IDs	Environmental and ecological data
+95	Assays	numbers	Enzymology and biocatalysis data
+96	NMR data	CSV, vendor formats	FID files, acquisition data, and processing parameters for each experiment
+97	NMR data	vendor formats	Name each spectrum according to the type of nucleus measured. 1H, 13C, DEPT, COSY, etc. NMR files should be compressed into zip files\u2014please use multiple zip files if necessary. Files must be submitted in their native format (jacs.yaml)
+98	magnetic measurements	numbers, graphs, tables, CSV, vendor formats	Fits of magnetic data [χ(T), χ-1(T), χT(T), μ(T), M(H), etc.] to an analytical expression must include both the Hamiltonian from which the analytical expression is derived and the final analytical expression and fitting parameters
+99	Flow cytometry data	CSV, tables, native formats	Flow cytometry data
+100	Spectra	CSV, JCAMP-DX, vendor formats	Fluorescence sensors
+101	HPLC data	graphs, tables, CSV, vendor formats	For HPLC, it is necessary to indicate the brand and model of the instrument, the detector, temperature, length and diameter of the column, the brand and particle size of the sorbent, and the composition of the eluent
+102	Elemental analysis data	tables, CSV	For all newly synthesized compounds, the elemental analysis data or high-resolution mass spectra should be provided
+103	High-resolution MS	tables, CSV, graphs, vendor formats	For all newly synthesized compounds, the elemental analysis data or high-resolution mass spectra should be provided
+104	Compound purity	number	For new substances, evidence of the homogeneity the purified sample should be included
+105	Crystal structure	CIF	For non-racemic, chiral substances, data to allow correlation of absolute configuration should be given, preferably including [α]D values
+106	Flack parameter	number	For non-racemic, chiral substances, data to allow correlation of absolute configuration should be given, preferably including [α]D values
+107	Optical rotation	number	For non-racemic, chiral substances, data to allow correlation of absolute configuration should be given, preferably including [α]D values
+108	Crystal structure	CIF, drawings	For structures with anisotropically refined atoms, a figure displaying the thermal ellipsoids
+109	Assays	numbers, tables, CSV, graphs, vendor formats	Functional enzymology data (kinetic and experimental data)
+110	Assays	numbers, tables, CSV, vendor formats	Functional genomics data
+111	Assays	numbers, tables, CSV, images, vendor formats	Gene expression data
+112	Assays	numbers, tables, CSV, images, vendor formats	Gene expression data, array- and sequence-based
+113	Microarray measurements	images, CSV, vendor formats	Gene expression data, array- and sequence-based
+114	Nucleic acid sequences	FASTA, FASTQ, Gene Bank, vendor formats	Genetic and genomic sequence (DNA/RNA)
+115	Genetic polymorphism data	FASTA, CSV, tables, graphs, vendor formats	Genetic polymorphism data, including SNP and CNV data
+116	Genetic polymorphism data	FASTA, CSV, tables, graphs, vendor formats	Genetic variation data
+117	Nucleic acid sequences	FASTA, FASTQ, Gene Bank, vendor formats	Genome assembly data
+118	Nucleic acid sequences	FASTA, FASTQ, Gene Bank, vendor formats	Genome sequence data
+119	Geochemical data	GIS data formats, images, CSV, tables	Geochemical, geochronological, and petrological data
+120	Geochronological data	GIS data formats, images, CSV, tables	Geochemical, geochronological, and petrological data
+121	Petrological data	GIS data formats, images, CSV, tables	Geochemical, geochronological, and petrological data
+122	High-resolution MS	tables, CSV, graphs, vendor formats	HRMS (High Resolution Mass Spectroscopy? S.G.) data
+123	High-resolution MS	tables, CSV, graphs, vendor formats	High Resolution Mass Spectral Data for Formula Confirmation: For publication of exact- mass data that are used to confirm identities of synthetic and natural products, report the uncertainty in the accurate-mass measurement used for formula verification along with the result
+124	Functional genomics data	FASTA, FASTQ, Gene Bank, vendor formats, CSV, images	High-throughput functional genomics data
+125	Genetic polymorphism data	FASTA, CSV, tables, graphs, vendor formats	Human genetic variation data (<=50bp), e.g. single-base nucleotide substitutions, small-scale deletion or insertions
+126	Functional genomics data	FASTA, FASTQ, Gene Bank, vendor formats, CSV, images	Human geno- and phenotype data, epigenetics
+127	Nucleic acid sequences	FASTA, FASTQ, Gene Bank, vendor formats	Human geno- and phenotype data, epigenetics
+128	Genetic polymorphism data	FASTA, CSV, tables, graphs, vendor formats	Human genomic structural variation data (>50bp)
+129	Spectra	CSV, JCAMP-DX, vendor formats, SPC	IR / Raman
+131	Spectra	numbers	IR spectroscopy may be used to support the presence of carbonyl, acyl, dinitrogen, carbonyl, and hydride moieties
+132	Spectra	numbers	IR spectrum (summary? S.G.), ν, cm –1 : 3350 br (NH, NOH), 2100 o.s (C≡N), 1700–1600 s (C=O, C=N)
+134	Crystal structure	CIF	If possible, the crystal system should be specified
+135	Computations	software versions, parameters, workflows	If the calculations were carried out with commercially available software, the investigator must list the source, version number, and force field employed
+	Force fields	IDs, vendor formats	If the calculations were carried out with commercially available software, the investigator must list the source, version number, and force field employed
+136	Computations	software versions, parameters, workflows	If the program is not available, commercially or otherwise, the authors must specify sufficient detail that the calculation could be reproduced
+137	Spectra	numbers, tables, CSV	If the spectra are given, the wavenumbers (cm–1 ) (in descending order from left to right) or frequencies in accordance with the scale of the spectrometer are placed along the lower abscissa axis; the upper abscissa axis can reflect wavelength data (µm).
+138	Powder diffractograms	CIF, CSV, numbers, graphs, vendor formats	In cases of unindexed listing of the data, the d spacings of all observed lines should be listed in sequence, together with their relative intensities
+139			In cases where intermolecular interactions are relevant to the discussion, a view of the unit cell may be included
+140			In describing spectra, signal types are indicated in abbreviated form: s, singlet; d, doublet; t, triplet; q, quartet; quint, quintet; and m, multiplet. Proton chemical shifts are given in the δ scale, for example, δ 5.24 m.
+141			In electron spectra, wavelengths (in nm) or wavenumbers (in cm–1 ) are given on the abscissa in ascending order from left to right.
+142			In many cases, X-ray diffraction may provide the most unambiguous characterization of such complexes, but this will not suffice as the only means of characterization
+143			In select instances, a variety of definitive spectroscopic techniques may provide sufficient characterization (for example, if many of the nuclei are NMR active), but in the majority of cases evidence for elemental constitution must be provided by either elemental analysis (e.g., combustion analysis, microprobe analysis), or mass spectrometry
+144			In the absence of an X-ray structure determination, evidence for elemental constitution must be provided by elemental analysis (e.g., combustion analysis, microprobe analysis), or mass spectrometry
+145			In the case of GC, the brand and model of instrument, detector, and recording conditions, i.e., temperature, length and diameter of the column, column packing, solid inert carrier, and carrier gas, should be specified
+146			In the text and tables, the positions of extrema are designated as λmax and λmin
+147			In the text and tables, the positions of extrema are designated as λmax and λmin IR and Raman spectra themselves are usually not presented
+148			Include a structure file that shows the structure and compound identifier for each provided dataset
+149			Include peak multiplicities for 1H-coupled 13C NMR spectra or for signals in 1H-decoupled spectra that are coupled to other magnetically active nuclei
+150			Include the number of protons represented by the signal, peak multiplicity, and coupling constants as needed (J italicized, reported with up to one digit after the decimal)
+151			Indicate solvent or peak suppression protocols used in collecting data
+152			Inorganic and organometallic compounds
+153			Input/configuration files and program output
+154			Intermediates on Solid Phase
+155			Intermolecular and supramolecular interactions of molecular systems, binding, assembly, and interaction phenomena
+156	Macromolecule structure	PDB, PDBx, mmCIF	It is the responsibility of the author to obtain a file name (PDB ID or NDB ID) for the molecule
+157			Kinetic and Equilibrium Data
+158			List the nucleus being measured, any nucleus being broad-band decoupled, the solvent used (formula preferred)
+159			Low resolution MS data under conditions that minimize fragmentation
+160			Macromolecular structure and sequence data
+161			Macromolecular structure data
+162			Magnetic Measurements
+163			Magnetic measurements
+164			Magnetic moment and/or ESR spectroscopic data should also be given for paramagnetic compounds
+165			Mass spectra are presented as numerical values m/z and relative intensities of ion currents in a row, in order of decreasing ion mass
+166			Mass spectra are presented as numerical values m/z and relative intensities of ion currents in a row, in order of decreasing ion mass,  - In the case of GC, the brand and model of instrument, detector, and recording conditions, i.e., temperature, length and diameter of the column, column packing, solid inert carrier, and carrier gas, should be specified in the experimental part
+167			Mass spectral data for small chemical molecules, metabolomics, exposomics
+168			Materials
+169			Materials (Various)
+170			Materials simulation data including electronic structure and molecular dynamics
+171			Metabolite and metabolome profiling data
+172			Metagenomic sequence
+173			Metagenomics sequence data
+174			Methods of purification used to prepare samples for characterization should be described
+175			Microscopy
+176			Miscellaneous  Numerical listings of characteristic spectroscopic data should be included to support assigned structures, changes in functionality, unusual chromophores, properties, etc
+177			Models of biochemical reaction networks
+178			MolFile is the recommended format and is strongly preferred
+179			Molecular Weight  Evidence of molecular weight should be provided, especially if elemental analysis was not performed
+180			NMR
+181			NMR Data
+182			NMR Spectra
+183			NMR data
+184			NMR data files (FID files, acquisition data, processing parameters) is encouraged for all new and/or key compounds
+185			NMR data files, which outlines the procedure for submitting FID files, acquisition data, and processing parameters to include in the Supporting Information
+186			NMR files should be compressed into zip files—please use multiple zip files if necessary
+187			NMR spectra, millionths of a field (ppm) are given on the abscissa axis; the maximum signal of a solvent or a reference sample may be outside the graph field.
+188			NMR spectra, which outlines the preferred format for inclusion of hard copies of spectra in the Supporting Information
+189			NMR spectroscopy
+190			Nano-sized materials (such as quantum dots, nanoparticles, nanotubes, nanowires)
+191			Nanomaterials
+192			Novel or Unexpected Compounds
+193			Novel or Unexpected Compounds Compounds in this category are those that either (i) exhibit an unprecedented type of structure, or (ii) are obtained by unexpected reaction
+194			Nuclear Magnetic Resonance Pulse Sequences
+195			Omics Data
+196			Organic compounds
+197			PDB
+198			Perovskite Solar Cell Efficiency Measurements
+199			Phenology data
+200			Polymers
+201			Polymers and macromolecules
+202			Possible space groups (for Crystal Structure Prediction? S.G.)
+203			Potential Energy Surfaces
+204			Powder Diffraction Data
+205			Protein circular dichroism and protein synchrotron radiation circular dichroism
+206			Protein sequence data
+207			Protein sequences
+208			Protein-protein interaction data
+209			Protein-protein, protein-DNA/RNA and molecular interactions
+210			Proteome profiling data
+211			Proteomics Data
+212			Proteomics data
+213			Proteomics mass spectrometry
+214			Proton chemical shifts are given in the δ scale, for example, δ 5.24 m
+215			Purity and Yield  The yield and purity of all compounds must be reported, including the methods used to determine them
+216			Purity of Tested Compounds
+217			QSAR/QSPR and Proprietary Data
+218			RNA sequence data
+219			References to the methods upon which the software is based must also be provided
+220			Relevant information about the specimen used should be included
+221			Reporting of Colloidal Inorganic Nanomaterials (http://pubs.acs.org/doi/abs/10.1021/acs.chemmater.5b02323)
+222			Reporting on Heterogeneous Photocatalysis (http://pubs.acs.org/doi/abs/10.1021/am504389z)
+223			Reproducibility of computations should be a defining goal in reporting
+224			Reproducibility of computations should be a defining goal in reporting computational results
+225			Reproductions of spectra, or the relevant segments thereof, will be published only if concise numerical summaries are inadequate for the purposes of the paper
+226			Requirements are similar for structures of nucleic acids, which should be deposited with the Nucleic Acid Database
+227			Research Involving Animals
+228			Research Involving Human Subjects
+229			Routine Compounds
+230			Routine infrared, electronic, NMR, and mass spectra of new compounds should be numerically summarized
+231			SEM, TEM, STM
+232			See Requirements for Depositing X-Ray Crystallographic Data [PDF] for complete details on submission of CIFs and a list of file types accommodated by CCDC
+233			Sequence Data
+234			Single Crystal Diffraction Data
+235			Small molecule, protein, protein complex data structural data
+236			Small-molecule screening data
+237			Software
+238			Solid State Materials
+239			Solid State Materials Compounds in this category are those that have no existence in solution
+240			Spectra
+241			Structural Data
+242			Structural Data Biological Macromolecules
+243			Structural and Chemical Shift Data for Proteins and Nucleic Acids
+244			Structure Reports in Articles
+245			Structure factors (except for proteins and nucleic acids) should not be submitted as Supporting Information
+246			Submission of spectra (.doc, .docx, .txt, .pdf, .tif) is strongly recommended for all new and/or key compounds
+247			Such compounds require more detailed characterization to ensure their validity
+248			Sufficient experimental details must also be included to allow another researcher to reproduce the synthesis
+249			Sufficient technical details should be provided to allow a reader to reproduce the results of any calculations
+250			Supply all supplementary material in standard file formats
+251			Synthetic procedures
+252			System models
+253			TLC; For TLC, the adsorbent, eluent, and developing reagent should be given
+254			Tables of essential interatomic distances and angles are not required but may be submitted (metric information for standard  structural components should not be included)
+255			Taxonomy data
+256			The absolute energies in hartrees that are computed at these geometries should not be given in the manuscript but should be included in the Supporting Information
+257			The abstract may summarize geometric features of unusual interest but should not contain unit cell parameters
+258			The acceptable uncertainty in a measurement by any analytical method must be adequate for the intended use of the data
+259			The compound identifier used in the manuscript should be included
+260			The expressions may be included in the manuscript or, if long and complex, as Supporting Information
+261			The folder should be named clearly, using the compound name (if available) and compound identifier, as referenced in the Experimental Section or Supporting Information
+262			The guidelines are divided into three sections: NMR text, which outlines the preferred format for NMR data included in the Experimental Section
+263			The issue of convergence must be adequately addressed
+264			The largest peak in the 1H NMR spectrum should normally arise from the compound, not the solvent
+265			The left ordinate axis presents transmittance (%) or absorbance (for IR spectra) or intensity (for Raman spectra)
+266			The left ordinate axis presents transmittance (%) or absorbance (for IR spectra) or intensity (for Raman spectra) In NMR spectra, millionths of a field (ppm) are given on the abscissa axis
+267			The logarithm of the molar absorption coefficient or, if needed, molar absorption coefficient is presented on the ordinate axis
+268			The method of assay and the exact experimental conditions of the assay should be provided as a reference to previous work, with or without modifications, or fully described if a new assay
+269			The yield of a compound obtained in an NMR tube reaction should be determined using an internal standard
+270			They are described in order of decreasing wavenumbers
+271			This journal encourages authors to adopt RRIDs when reporting key biological resources (antibodies, cell lines, model organisms and tools) in their manuscripts.
+272			This will typically include the pulse sequence code, parameter set, and other associated files, such as tables of gradient or pulse shapes
+273			Trait data
+274			UV-vis
+275			X-ray diffraction may provide the most unambiguous characterization of such compounds, evidence for elemental constitution and homogeneity needs to be presented
+276			X-ray diffraction structure is not considered definitive proof of elemental composition, it is acceptable evidence for composition providing that the results of other physical methods concerning the characterization are conclusive
+277			X-ray powder diffraction data for new materials or for materials previously uncharacterized by this technique is encouraged
+278			X-ray powder measurements should be accompanied by details of the experimental technique: source of X-rays, the radiation, its wavelength, filters or monochromators, camera diameter, the type of X-ray recording, and the technique for measuring intensities
+279			XRD data are presented as the structural formula of a molecule with numbered atoms or as a crystal lattice and tables
+280			a brief description of data collection and solution and refinement of the structure should be placed in the Experimental Section
+281			bio-NMR
+282			bio-NMR, Software / code
+283			calculations that are integral to the study (i.e., the precise quantitative results are central to the conclusions drawn); computational details must be described
+284			checkCIF output files (combined into one PDF file)
+285			chemical compound data
+286			chemical shifts must be available to the reviewer at time of submission, either as an available entry in the Biological Magnetic Resonance Data Bank or included directly as Supporting Information
+287			chromatin immunoprecipitation data (deep-sequencing or microarray)
+288			cif
+289			code
+290			combustion analysis
+291			computational details
+292			computations
+293			crystal structures
+294			crystallographic data (cell parameters, space group, etc.); the device with which the measurements were performed and the methods (programs) used for decrypting structures and for calculations
+295			electronic structure calculations: the geometries (either as Cartesian coordinates or Z matrices) of all the stationary points whose relative energies are given in the manuscript
+296			equations defining the model (or references to where such material is available in the open literature)
+297			final output structure(s) or the input structure(s) that would allow another investigator to replicate the computational experiment
+298			force field parameters
+299			full details of the calculation (e.g., structures, energies, frequencies, dynamical quantities, etc.) in a repository (such as Supporting Information to the paper) that is accessible via the Internet
+300			full details of the calculation (e.g., structures, energies, frequencies, dynamical quantities, etc.) in a repository that is accessible via the Internet
+301			gel electrophoresis
+302			glpc
+303			hplc
+304			hplc or glpc methods: then retention times for both enantiomers must be provided, together with solvent and flow rate information, and identification of the chiral support
+305			identification of a key functional group or chromophore
+306			imaginary frequencies should be reported to identify stable structures and transition states
+307			insertions, deletions, translocations
+308			kinetic data and equilibrium binding data for proteins, nucleic acids, and other species
+309			mass spectrometry
+310			method of crystallization (solvents; mp; etc.)
+311			miRNA sequences and annotation
+312			microarray data
+313			microprobe analysis
+314			mp (Melting Point? S.G.)
+315			neuroimaging data
+316			new NMR pulse sequences –  file that includes the original working pulse sequence information required to record data
+317			nomenclature
+318			nucleic acid sequences
+319			other potential energy surface information
+320			printed table of structure factors
+321			protein sequences
+322			proteomics data
+323			raw proteomics data
+324			reaction intermediates or intractable mixtures, or unstable species) may be published
+325			reporting electrochemical data and setup of batteries
+326			reporting the efficiency of solar conversion devices
+327			results of electronic structure calculations
+328			scaled-down photocopies of the experimental spectra
+329			scaled-down photocopies of the experimental spectra.
+330			software used for calculations must be properly cited
+331			spectroscopic data as follows: - In electron spectra, wavelengths (in nm) or wavenumbers (in cm–1 ) are given on the abscissa in ascending order from left to right
+332			the probe temperature when it is accurately known

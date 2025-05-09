@@ -1,0 +1,44 @@
++ directory-metadata
++ whoami
+saulius
++ hostname -f
+pterodaktilis
++ pwd
+/home/saulius/writings/sources-of-scientific-information/data-types
++ set +x
++ svnversion
+5M
++ svn info
+Path: .
+Working Copy Root Path: /home/saulius/writings/sources-of-scientific-information
+URL: svn+ssh://saulius.grazulis.lt/home/saulius/svn-repositories/sources-of-scientific-information/trunk/data-types
+Relative URL: ^/trunk/data-types
+Repository Root: svn+ssh://saulius.grazulis.lt/home/saulius/svn-repositories/sources-of-scientific-information
+Repository UUID: 940c02ad-662e-4975-a022-e74894bbb939
+Revision: 5
+Node Kind: directory
+Schedule: normal
+Last Changed Author: saulius
+Last Changed Rev: 5
+Last Changed Date: 2025-04-25 09:59:15 +0300 (Fri, 25 Apr 2025)
+
++ df -h .
+Filesystem               Size  Used Avail Use% Mounted on
+/dev/mapper/vgmint-root  1,8T  1,4T  373G  79% /
++ type osname
+osname is /home/saulius/scripts/osname
++ osname
+Linuxmint-21.2
++ uname -a
+Linux pterodaktilis 5.15.0-138-generic #148-Ubuntu SMP Fri Mar 14 19:05:48 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
++ date
+2025-04-25T09:59:43 EEST
++ awk -F '\t' '$4 ~ /data types/ {OFS=FS; print $8}' inputs/selected-answer.tsv
++ sort
++ uniq -c
++ sort -nr -k1,1
++ sed 's/^  *//; s/ /\t/'
++ perl '-F\t' -alne '@formats = split (/(; *|\. +)/, $F[1]); for (@formats) {print}'
++ sort
++ uniq -c
++ sort -nr -k1,1
